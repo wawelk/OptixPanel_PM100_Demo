@@ -1,0 +1,68 @@
+Name: F22 Power Results
+Id: g=25c447f2250e494b8c0c05b83cfecf10
+Type: FolderType
+Children:
+- Name: Power Factor
+  Id: g=479bd9b59d164f168e2ddebf0b070951
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=74c608f697f040d8929624d09cd4b586
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F22 Power Results/Power Factor"
+    Children:
+    - Name: Mode
+      Id: g=cbea0d5ef8a049dbb62ee42e0cfbf8f8
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Total kW
+  Id: g=613c852c9ea34a7e935f401a1f55a8f9
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=6ae3cc6abaa4433eb36e7fbd5c6612fd
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F22 Power Results/Total kW"
+    Children:
+    - Name: Mode
+      Id: g=7b809c413fcb451f8cf8afda61c10639
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Total kVAR
+  Id: g=9b3f1dbc10cb4790afc381180020ed5e
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=b048874ac78944b68a227fb04aa5f3b1
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F22 Power Results/Total kVAR"
+    Children:
+    - Name: Mode
+      Id: g=deea40675d3b45729a57971a7f2e10e7
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Total kVA
+  Id: g=bba659875929478585acc5b609baeadb
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=0bbecdceabd24654a73b636d4236a943
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F22 Power Results/Total kVA"
+    Children:
+    - Name: Mode
+      Id: g=c29e0dae525e43fabebe7f9289bba323
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

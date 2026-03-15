@@ -1,0 +1,8 @@
+Name: Tags
+Id: g=13e91ef5ae0a7f1fcfc653229cec50e9
+Type: FolderType
+Children:
+- File: F21_Volts_Amps_Freq_Results/F21_Volts_Amps_Freq_Results.yaml
+- File: F22_Power_Results/F22_Power_Results.yaml
+- File: F23_Energy_Results/F23_Energy_Results.yaml
+- File: F24_Demand_Results/F24_Demand_Results.yaml

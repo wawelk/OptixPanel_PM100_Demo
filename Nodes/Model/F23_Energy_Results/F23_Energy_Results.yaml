@@ -1,0 +1,52 @@
+Name: F23 Energy Results
+Id: g=f5b6df56d2c248cabf1102fa3dfd9901
+Type: FolderType
+Children:
+- Name: kWh Net
+  Id: g=a6567851d04b4201acf1a0bfef557bd3
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=ff7bbf05ee6f4a4a9abb59f7abb7008e
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F23 Energy Results/kWh Net"
+    Children:
+    - Name: Mode
+      Id: g=f54c09c0fb63474797cf23dcc22e33b0
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: kVARh Net
+  Id: g=f6008fa2c5474f3189d1a47e7296e14d
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=a36ae6badeb94b09a0074161fbc8e2db
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F23 Energy Results/kVARh Net"
+    Children:
+    - Name: Mode
+      Id: g=711014a50a384d22996188fbfa7637be
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: kVAh Net
+  Id: g=9eac13eca68845f397c5bde13ae16764
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=44f7e30379a948b2ab00b2b601d4df3b
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F23 Energy Results/kVAh Net"
+    Children:
+    - Name: Mode
+      Id: g=a9eb5448d5c94ba4b1f2586956a1f5ec
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

@@ -1,0 +1,68 @@
+Name: F24 Demand Results
+Id: g=312f2ec9020c4e219c91fe9c924e80ac
+Type: FolderType
+Children:
+- Name: kW Demand
+  Id: g=53d01ebad2554ebdbec553a339c48ad2
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=9ba78c3b2634473eb45714a409def444
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F24 Demand Results/kW Demand"
+    Children:
+    - Name: Mode
+      Id: g=d942990c18ec4abfa0446b49dd16fe81
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: kVAR Demand
+  Id: g=1425c0cbde964fbf962b96ba073705e5
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=4a064c00788f40b3bcfe0ffbdf681fdf
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F24 Demand Results/kVAR Demand"
+    Children:
+    - Name: Mode
+      Id: g=820696aa22b044c8b10b48acfdb980e8
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: kVA Demand
+  Id: g=20680e51ade3466f9a18024faf15e8c2
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=d2813a5d63ec4b5288b87b302667ba31
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F24 Demand Results/kVA Demand"
+    Children:
+    - Name: Mode
+      Id: g=0fe07c931d1849dd8dd860184bd8b6a4
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Demand PF
+  Id: g=69ed9521ef064dc7b95b5e7b0666bf90
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=14d9e9c48dee4e8fa71eac2ef2b4ebaa
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F24 Demand Results/Demand PF"
+    Children:
+    - Name: Mode
+      Id: g=21a584aa1cb34748b48b1fade5d86657
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

@@ -1,0 +1,180 @@
+Name: F21 Volts Amps Freq Results
+Id: g=4c10ab4810ba45fdb5a2e6c1a1fe97e9
+Type: FolderType
+Children:
+- Name: L1 Current
+  Id: g=c13af0aa16c24a528fd6119e3957b65b
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=05e9902931974bf59e4fc725f1c2fa0e
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L1 Current"
+    Children:
+    - Name: Mode
+      Id: g=f7f0fac5eb2848c2af3d5a09c115de71
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: L2 Current
+  Id: g=261b2692cb1a4a1d82404964af0d925a
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=cab130c957a6408d8955123ca6c02948
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L2 Current"
+    Children:
+    - Name: Mode
+      Id: g=701622d5b9404e7bbcf270a91d8d5f64
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: L3 Current
+  Id: g=806cea1f725e4c809df1987ae615436d
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=435d3f6be43e4e72ac4fe937d3a128c8
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L3 Current"
+    Children:
+    - Name: Mode
+      Id: g=0f3073d544934795aa37b1e1d9babde2
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Average Current
+  Id: g=3102724a325c431184b703a415156d80
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=137b873c07054e6eade979df4b342c78
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/Average Current"
+    Children:
+    - Name: Mode
+      Id: g=094fea51e8dd43c48e89e371ad6c0f03
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'L1-L2 Volts'
+  Id: g=a267de1401de4f7bbaa054a8871739f0
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=133cf53ad8ad499bb26ef638454476e9
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L1-L2 Volts"
+    Children:
+    - Name: Mode
+      Id: g=86dd8bc912da490fa8ff648e3ec095b3
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'L2-L3 Volts'
+  Id: g=4f8f0943694547569418f32b4c452368
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=c7b6125fc10c4ad280dd516a0431ee40
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L2-L3 Volts"
+    Children:
+    - Name: Mode
+      Id: g=d7ab0f24ff584830a88a725aa365ca6a
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'L3-L1 Volts'
+  Id: g=68fe935ad9e345d4a7bb119f306ef5ed
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=6013881ccb2342a8b19887297fce909e
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L3-L1 Volts"
+    Children:
+    - Name: Mode
+      Id: g=47a70dec07384193b651ff53c5d1e665
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'Average L-L Volts'
+  Id: g=7aed943a16a149ca97c8d2c31d081b68
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=425758ef6ef14ddaa47c3cee879aea3a
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/Average L-L Volts"
+    Children:
+    - Name: Mode
+      Id: g=f424d24cde11418fb37d71ee87df9916
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Frequency
+  Id: g=41d741bba5114547959d2d4b018c6744
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=b49b890435b5452cb35deaef8a0877ce
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/Frequency"
+    Children:
+    - Name: Mode
+      Id: g=f0cc21f8196c49d999f1e62cc7b57f50
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Current Unbalance
+  Id: g=79d6d996bbc942f2a03c73eb675fdb4e
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=ae0b98c1dc854e1cbc0845489bee1dfd
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/Current Unbalance"
+    Children:
+    - Name: Mode
+      Id: g=d0391a37c87a41b19ed98763e82d9fdc
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Voltage Unbalance
+  Id: g=438d34aaf00147c58aa720ee9f858512
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Id: g=71e1cbec8e9a4018bb45a5d18df6d5c3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/Voltage Unbalance"
+    Children:
+    - Name: Mode
+      Id: g=63cc63b7f42d4e18a01fc50f066f33ff
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
