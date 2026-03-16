@@ -3319,6 +3319,23 @@ Children:
       DataType: Boolean
       ModellingRule: Optional
       Value: true
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=36;%PROJECTDIR%/Method1 Data Flow.png"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 138.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 491.0
 - Name: Logix_AOP
   Id: g=b695167fdedf053884b06efa36d1b414
   Supertype: Screen
@@ -6042,6 +6059,23 @@ Children:
       DataType: Boolean
       ModellingRule: Optional
       Value: true
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=36;%PROJECTDIR%/Method2 Data Flow.png"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 490.0
 - Name: Device_Library
   Id: g=58ad8164270a8c59a119097646ac8d90
   Supertype: Screen
@@ -6793,6 +6827,23 @@ Children:
       DataType: Boolean
       ModellingRule: Optional
       Value: true
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=36;%PROJECTDIR%/Method2 Data Flow.png"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 490.0
 - Name: InfluxDB
   Id: g=e45417c7ab99015de3b084ce096fca2f
   Supertype: Screen
