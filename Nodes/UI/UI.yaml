@@ -923,7 +923,7 @@ Children:
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 8443
+    Value: 8080
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId

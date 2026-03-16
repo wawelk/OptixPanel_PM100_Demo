@@ -1044,462 +1044,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     ModellingRule: Optional
-  - Name: 'V1-V2 Volts'
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L1-L2 Volts"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 600.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"V1-V2 Voltage"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 70.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-  - Name: 'V2-V3 Volts'
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L2-L3 Volts"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 600.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"V2-V3 Voltage"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 70.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 330.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-  - Name: 'V3-V1 Volts'
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L3-L1 Volts"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 600.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"V2-V3 Voltage"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 70.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 600.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-  - Name: L1 Current
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L1 Current"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 1500.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -10.0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 60.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"L1 Current"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 490.0
-  - Name: L2 Current
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L2 Current"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 1500.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -10.0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 60.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"L2 Current"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 330.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 490.0
-  - Name: L3 Current
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/MicroControllerDriver1/PM1000/Tags/F21 Volts Amps Freq Results/L3 Current"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 1500.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -10.0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 60.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"L3 Current"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 600.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 490.0
   - Name: Power KPI Box
     Type: Rectangle
     Children:
@@ -1512,7 +1056,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 610.0
+      Value: 580.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1522,7 +1066,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 80.0
     - Name: CornerRadius
       Type: BaseDataVariableType
       DataType: Size
@@ -1554,7 +1098,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 141.0
+      Value: 91.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -1621,7 +1165,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 200.0
+      Value: 150.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1669,7 +1213,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 210.0
+      Value: 160.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -1735,7 +1279,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 200.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1783,7 +1327,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 260.0
+      Value: 210.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -1849,7 +1393,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 300.0
+      Value: 250.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1897,7 +1441,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 310.0
+      Value: 260.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -1963,7 +1507,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 350.0
+      Value: 300.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2011,7 +1555,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 360.0
+      Value: 310.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -2077,7 +1621,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 400.0
+      Value: 350.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2125,7 +1669,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 410.0
+      Value: 360.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -2191,7 +1735,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 450.0
+      Value: 400.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2239,7 +1783,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 460.0
+      Value: 410.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -2305,7 +1849,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 500.0
+      Value: 450.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2353,7 +1897,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 510.0
+      Value: 460.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -2394,12 +1938,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 70.0
+      Value: 59.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 409.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2456,12 +2000,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 340.0
+      Value: 329.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 409.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2518,12 +2062,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 610.0
+      Value: 599.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 409.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2566,12 +2110,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 72.0
+      Value: 61.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 369.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -2599,12 +2143,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 344.0
+      Value: 333.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 369.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -2632,12 +2176,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 620.0
+      Value: 609.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 91.0
+      Value: 370.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -2704,7 +2248,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 550.0
+      Value: 500.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2752,7 +2296,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 560.0
+      Value: 510.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -2818,7 +2362,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 600.0
+      Value: 550.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2866,7 +2410,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 610.0
+      Value: 560.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -2932,7 +2476,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 650.0
+      Value: 600.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -2980,7 +2524,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 660.0
+      Value: 610.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -3036,22 +2580,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 228.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 148.0
+      Value: 59.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 416.0
+      Value: 149.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 60.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -3061,7 +2605,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 30.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -3118,22 +2662,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 230.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 428.0
+      Value: 329.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 416.0
+      Value: 149.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 60.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -3143,7 +2687,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 30.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -3200,22 +2744,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 230.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 698.0
+      Value: 599.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 416.0
+      Value: 149.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 60.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -3225,7 +2769,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 30.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -3282,22 +2826,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 230.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 138.0
+      Value: 59.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 695.0
+      Value: 279.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 60.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -3307,7 +2851,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 30.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -3364,22 +2908,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 230.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 418.0
+      Value: 329.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 695.0
+      Value: 279.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 60.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -3389,7 +2933,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 30.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -3446,22 +2990,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 230.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 688.0
+      Value: 599.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 695.0
+      Value: 279.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 60.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -3471,7 +3015,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 30.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -3577,6 +3121,204 @@ Children:
       DataType: Boolean
       ModellingRule: Optional
       Value: true
+  - Name: Label3
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L1-L2 Voltage"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 59.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label4
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L2-L3 Voltage"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 331.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label5
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L3-L1 Voltage"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 607.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 111.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label6
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L1 Current"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 62.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 239.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label21
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L2 Current"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 334.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 239.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label22
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L3 Current"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 610.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 240.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
 - Name: Logix_AOP
   Id: g=b695167fdedf053884b06efa36d1b414
   Supertype: Screen
@@ -3586,6 +3328,498 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     ModellingRule: Optional
+  - Name: Current A Phase
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"","Text":"{0:n1}"}
+        - Name: ns=9;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara1"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Mode
+          Type: PropertyType
+          DataType: DynamicLinkMode
+          ReferenceType: HasComponent
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 58.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 281.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: Style
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#62a744"
+  - Name: Current B Phase
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"","Text":"{0:n1}"}
+        - Name: ns=9;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara2"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Mode
+          Type: PropertyType
+          DataType: DynamicLinkMode
+          ReferenceType: HasComponent
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 328.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 281.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: Style
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#62a744"
+  - Name: Current C Phase
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"","Text":"{0:n1}"}
+        - Name: ns=9;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara3"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Mode
+          Type: PropertyType
+          DataType: DynamicLinkMode
+          ReferenceType: HasComponent
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 598.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 281.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: Style
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#62a744"
+  - Name: Volts C Phase
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"","Text":"{0:n1}"}
+        - Name: ns=9;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara6"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Mode
+          Type: PropertyType
+          DataType: DynamicLinkMode
+          ReferenceType: HasComponent
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 598.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: Style
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#62a744"
+  - Name: Voltage B Phase
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"","Text":"{0:n1}"}
+        - Name: ns=9;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara5"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Mode
+          Type: PropertyType
+          DataType: DynamicLinkMode
+          ReferenceType: HasComponent
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 328.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: Style
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#62a744"
+  - Name: Volts A Phase
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"","Text":"{0:n1}"}
+        - Name: ns=9;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara4"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Mode
+          Type: PropertyType
+          DataType: DynamicLinkMode
+          ReferenceType: HasComponent
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 58.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: Style
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#62a744"
   - Name: Total kVAR
     Type: TextBox
     Children:
@@ -3612,12 +3846,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 610.0
+      Value: 598.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 411.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -3674,12 +3908,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 340.0
+      Value: 328.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 411.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -3736,12 +3970,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 70.0
+      Value: 58.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 130.0
+      Value: 411.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -3772,462 +4006,6 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#62a744"
-  - Name: 'V1-V2 Volts'
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara4"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 600.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"V1-V2 Voltage"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 70.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-  - Name: 'V2-V3 Volts'
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara5"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 600.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"V2-V3 Voltage"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 70.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 330.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-  - Name: 'V3-V1 Volts'
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara6"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 600.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"V2-V3 Voltage"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 70.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 600.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-  - Name: L1 Current
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara1"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 1500.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -10.0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 60.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"L1 Current"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 490.0
-  - Name: L2 Current
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara2"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 1500.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -10.0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 60.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"L2 Current"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 330.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 490.0
-  - Name: L3 Current
-    Type: Indicators
-    Children:
-    - Name: Rectangle1
-      Type: Rectangle
-    - Name: CircularGauge1
-      Type: CircularGauge
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Float
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara3"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Float
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Float
-        Value: 1500.0
-      - Name: WarningZones
-        Type: BaseObjectType
-      - Name: MajorTickCount
-        Type: BaseDataVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 6.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -10.0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 60.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"L3 Current"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 600.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 490.0
   - Name: Power KPI Box
     Type: Rectangle
     Children:
@@ -4240,7 +4018,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 610.0
+      Value: 350.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -4370,12 +4148,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -786.0
+        Value: -790.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 291.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4489,12 +4267,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -516.0
+        Value: -520.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 291.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4608,12 +4386,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -246.0
+        Value: -250.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 291.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4727,12 +4505,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -706.0
+        Value: -794.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 200.0
+        Value: 31.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4846,12 +4624,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -436.0
+        Value: -528.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 200.0
+        Value: 30.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -4965,12 +4743,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -160.0
+        Value: -258.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 200.0
+        Value: 30.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5084,12 +4862,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -710.0
+        Value: -790.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 470.0
+        Value: 161.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5203,12 +4981,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -440.0
+        Value: -520.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 470.0
+        Value: 161.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5322,12 +5100,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -170.0
+        Value: -250.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 470.0
+        Value: 161.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -5724,12 +5502,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 72.0
+      Value: 56.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 371.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -5757,12 +5535,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 344.0
+      Value: 330.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 371.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -5790,12 +5568,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 620.0
+      Value: 606.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 91.0
+      Value: 372.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -5925,498 +5703,6 @@ Children:
       DataType: FontWeightEnum
       ModellingRule: Optional
       Value: 700
-  - Name: Volts A Phase
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"","Text":"{0:n1}"}
-        - Name: ns=9;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara4"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 148.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 416.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 40.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: FontSize
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: TextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#62a744"
-  - Name: Voltage B Phase
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"","Text":"{0:n1}"}
-        - Name: ns=9;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara5"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 428.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 416.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 40.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: FontSize
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: TextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#62a744"
-  - Name: Volts C Phase
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"","Text":"{0:n1}"}
-        - Name: ns=9;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara6"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 698.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 416.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 40.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: FontSize
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: TextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#62a744"
-  - Name: Current A Phase
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"","Text":"{0:n1}"}
-        - Name: ns=9;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara1"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 138.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 695.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 40.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: FontSize
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: TextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#62a744"
-  - Name: Current B Phase
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"","Text":"{0:n1}"}
-        - Name: ns=9;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara2"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 418.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 695.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 40.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: FontSize
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: TextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#62a744"
-  - Name: Current C Phase
-    Type: TextBox
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Format
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ReferenceType: HasParameter
-          ModellingRule: Optional
-          Value: {"LocaleId":"","Text":"{0:n1}"}
-        - Name: ns=9;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/OptixPanel_PM100_Demo/CommDrivers/RAEtherNet_IPDriver1/CMX_5380/Tags/Controller Tags/Module_PM1000&:I/UserSelectPara3"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Mode
-          Type: PropertyType
-          DataType: DynamicLinkMode
-          ReferenceType: HasComponent
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 688.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 695.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 40.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: FontSize
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: TextColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#62a744"
   - Name: Label1
     Type: Label
     Children:
@@ -6558,71 +5844,209 @@ Children:
       DataType: Boolean
       ModellingRule: Optional
       Value: true
+  - Name: Label4
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L1-L2 Voltage"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 56.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 111.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label5
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L2-L3 Voltage"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 330.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 111.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label6
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L3-L1 Voltage"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 606.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 112.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label8
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L1 Current"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 56.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 241.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label9
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L2 Current"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 330.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 242.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: Label13
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"L2 Current"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 606.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 243.0
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: FontWeight
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontUnderline
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
 - Name: Device_Library
   Id: g=58ad8164270a8c59a119097646ac8d90
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
-  - Name: Rectangle1
-    Type: Rectangle
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 360.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 580.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 890.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 110.0
-    - Name: CornerRadius
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 25.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 2.0
-    - Name: Image1
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=36;%PROJECTDIR%/5380 CMX.png"
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -30.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 19.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 400.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 231.0
   - Name: PM1000TextButton1
     Type: raC_4_00_raC_Dvc_PM1000_GS_NavText
     Children:
@@ -7233,70 +6657,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 380.0
-  - Name: Image1
-    Type: Image
-    Children:
-    - Name: Path
-      Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "ns=36;%PROJECTDIR%/1408-powermonitor1000-front1-large-312w255h.jpg"
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 950.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 450.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 240.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-  - Name: PolyLine1
-    Type: PolyLine
-    Children:
-    - Name: LineThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 4.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 160.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1070.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 330.0
-    - Name: Path
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "M 0.000000 180.000000 L 0.000000 0.000000"
-    - Name: LineColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#0fafff"
   - Name: Label1
     Type: Label
     Children:
